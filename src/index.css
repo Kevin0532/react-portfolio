@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light;
-  color: #213547;
-  background-color: #3f3f3f;
+  color: #ffffff;
+  background-color: #2B303C;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,21 +17,23 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #FF9000;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #FF9000;
 }
 
 body {
-  margin: 0;
+  padding-top: 175px;
+  padding-left: 400px;
   min-width: 320px;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -52,6 +56,7 @@ button:focus-visible {
 
 p {
   margin: 0;
+  padding: 0;
 }
 
 /* Removed dark theme defaults and vertical centering */
