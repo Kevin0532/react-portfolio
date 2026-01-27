@@ -1,4 +1,5 @@
 import './App.css';
+import SocialLinks from './components/SocialLinks';
 
 function App() {
 
@@ -10,14 +11,12 @@ function App() {
       </div>
       <div>
         <p className="introduction-information">
-          Junior Software Developer, frontend focused with a strong interest in full-stack.<br/>
+          Jr. Software Developer, frontend focused with a strong interest in full-stack.<br/>
           Recently graduated, with internship experience at <span className="orange-text"><a>bunq</a></span> and <span className="orange-text"><a>Kobalt</a></span><br/>
           I build SaaS-style projects and products that aim to solve real problems for real users. 
         </p>
       </div>
-      <div>
-        {/* TO-DO: Social media logos */}
-      </div>
+      <SocialLinks />
     </>
   );
 }
