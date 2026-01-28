@@ -1,5 +1,6 @@
 import './App.css';
 import SocialLinks from './components/SocialLinks';
+import TechStack from './components/TechStack';
 
 function App() {
 
@@ -16,7 +17,12 @@ function App() {
           I build SaaS-style projects and products that aim to solve real problems for real users. 
         </p>
       </div>
-      <SocialLinks />
+      <div>
+        <SocialLinks />
+      </div>
+      <div>
+        <TechStack />
+      </div>
     </>
   );
 }
