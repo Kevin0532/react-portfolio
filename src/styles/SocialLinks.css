@@ -1,0 +1,27 @@
+.social-media {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.social-link:hover .social-icon {
+  opacity: 0.8;
+}
+
+.social-text {
+  font-weight: 500;
+  font-size: 14px;
+}

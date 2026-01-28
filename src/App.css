@@ -1,4 +1,17 @@
-.text-xl {
-  color: hsl(0, 0%, 100%);
-  font-size: 50px;
+.orange-text {
+  color: #FF9000;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+.self-introduction-text {
+  font-size: 18px;
+}
+
+.introduction-information {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 800;
 }
